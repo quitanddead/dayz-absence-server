@@ -1,0 +1,394 @@
+	// NETCODE
+	// Netcode replace addpublicvariableeventhandler by WC eventhandler
+
+	WC_fnc_netcode_wcweather = {
+		wcweather = _this select 0;
+		100 setRain (wcweather select 0);
+		100 setfog (wcweather select 1);
+		100 setOvercast (wcweather select 2);
+	};
+
+	WC_fnc_netcode_wcdate = {
+		wcdate = _this select 0;
+		wcgarbage = [] spawn WC_fnc_fasttime;
+	};
+
+	WC_fnc_netcode_wcnewnuclearzone = {
+		wcnewnuclearzone = _this select 0;
+		wcgarbage = [wcnewnuclearzone] spawn WC_fnc_nuclearnuke;
+	};
+
+	WC_fnc_netcode_wcbomb = {
+		playsound "bomb";
+	};
+
+	WC_fnc_netcode_wciedsound = {
+		wciedsound = _this select 0;
+		if(wciedsound == name player) then {
+			if(vehicle player == player) then {
+				playsound "bombdetector";
+			};
+		};
+	};
+
+	WC_fnc_netcode_wcallahsound = {
+		wcallahsound = _this select 0;
+		if(wcallahsound == name player) then {
+			playsound "allah";
+		};
+	};
+
+	WC_fnc_netcode_wcdogbark = {
+		playsound "dog_bark";
+	};
+
+	WC_fnc_netcode_wcdoggrognement = {
+		playsound "dog_grognement";
+	};
+
+	WC_fnc_netcode_wcaddkilled = {
+		wcaddkilled = _this select 0;
+		if(name wcaddkilled in wcinteam) then {
+			_message = format[localize "STR_WC_MESSAGEWASKILLED", name wcaddkilled];
+			wcclientlogs = wcclientlogs + [_message];
+		};
+	};
+
+	WC_fnc_netcode_wctk = {
+		wctk = _this select 0;
+		hintsilent format[localize "STR_WC_MESSAGEGOTABLAME", wctk];
+	};
+
+	WC_fnc_netcode_wcrespawntobase = {
+		wcrespawntobase = _this select 0;
+		_message =  format[localize "STR_WC_MESSAGERESPAWNTOBASE", wcrespawntobase];
+		wcclientlogs = wcclientlogs + [_message];
+		hintsilent _message;
+	};
+
+	WC_fnc_netcode_wcrespawntotent = {
+		wcrespawntotent = _this select 0;
+		_message = format[localize "STR_WC_MESSAGERESPAWNTOTENT", wcrespawntotent];
+		wcclientlogs = wcclientlogs + [_message];
+		hintsilent _message;
+	};
+
+	WC_fnc_netcode_wcrespawntohq = {
+		wcrespawntohq = _this select 0;
+		_message = format[localize "STR_WC_MESSAGERESPAWNTOHQ", wcrespawntohq];
+		wcclientlogs = wcclientlogs + [_message];
+		hintsilent _message;
+	};
+
+	WC_fnc_netcode_wcpromote = {
+		wcpromote = _this select 0;
+		_name = name (wcpromote select 0);
+		_rank = wcpromote select 1;
+		(wcpromote select 0) setrank _rank;
+		hintsilent format[localize "STR_WC_MESSAGEPLAYERPROMOTED", _name, _rank];
+		wcrankchanged = true;
+		wcclientlogs = wcclientlogs + ["A soldier got promoted: + 1 point"];
+	};
+
+	WC_fnc_netcode_wcdegrade = {
+		private  ["_name", "_rank"];
+		wcdegrade = _this select 0;
+		_name = name (wcdegrade select 0);
+		_rank = wcdegrade select 1;
+		(wcdegrade select 0) setrank _rank;
+		hintsilent format[localize "STR_WC_MESSAGEPLAYERDEGRADED", _name, _rank];
+		wcrankchanged = true;
+		wcclientlogs = wcclientlogs + [format["%1 got degraded: - 1 point", _name]];
+	};
+
+	WC_fnc_netcode_wcranksync = {
+		wcranksync = _this select 0;
+		{
+			(_x select 0) setrank (_x select 1);
+		}foreach wcranksync;
+	};
+
+	WC_fnc_netcode_wcobjective = {
+		wcobjective = _this select 0;
+		//if ((wcobjective select 0) > wcobjectiveindex) then {
+			//wcobjectiveindex = wcobjective select 0;
+			//if(vehicle player == player) then {
+			//	wcanim = [(wcobjective select 1)] spawn WC_fnc_camfocus;
+			//};
+		//};
+		wcgarbage = ["Новое задание", "Откройте меню mission info", "Вы только что получили новое задание", 10] spawn WC_fnc_playerhint;
+	};
+
+
+	WC_fnc_netcode_wcteamplayaddscore = {
+		wcteamplayaddscore = _this select 0;
+		if(wckindofserver != 3) then {
+			if((wcteamplayaddscore select 0) == name player) then {
+				_text = format["%1", (wcteamplayaddscore select 1)];
+				_text2 = format["Передано: %1 очков", (wcteamplayaddscore select 2)];
+				[_text, _text2] spawn EXT_fnc_infotext;
+				_message = format["%1 передал вам : %2 личных очков", (wcteamplayaddscore select 1), (wcteamplayaddscore select 2)];
+				wcclientlogs = wcclientlogs + [_message];
+			};
+		};
+	};
+
+	WC_fnc_netcode_wcinteamintegration = {
+		wcinteamintegration = _this select 0;
+		if(wcinteamintegration == name player) then {
+			wcgarbage = [localize "STR_WC_MENURECRUITMENT", localize "STR_WC_MENUFOLLOWTHELEADER", localize "STR_WC_MENURECRUITASTEAMMENBER", 10] spawn WC_fnc_playerhint;
+			wcclientlogs = wcclientlogs + ["You have been recruited as team member"];
+		}; 
+	};
+
+	WC_fnc_netcode_wcinteamfired = {
+		wcinteamfired = _this select 0;
+		if(wcinteamfired == name player) then {
+			wcgarbage = [localize "STR_WC_MENURECRUITMENT", localize "STR_WC_MENUFOLLOWTHELEADERTOBERECRUIT", localize "STR_WC_MENUFIREDASTEAMMENBER", 10] spawn WC_fnc_playerhint;
+			wcclientlogs = wcclientlogs + ["You have been fired of team members"];
+		}; 
+	};
+
+	// Recieve points to share
+	// More ranked player is, less points he has to distribute
+	WC_fnc_netcode_wcteamplayscoretoadd = {
+			wcteamplayscoretoadd = _this select 0;
+			[wcteamplayscoretoadd] spawn WC_fnc_addplayerscore;
+			if(wckindofgame == 1) then {
+				wcclientlogs = wcclientlogs + ["Mission finished : +5 points teamscore"];
+			} else {
+				wcclientlogs = wcclientlogs + ["Mission finished : +3 points teamscore"];
+			};
+	};
+
+	// add combat operation plan action
+	WC_fnc_netcode_wcchoosemission = {
+		wcchoosemission = _this select 0;
+		if(wcchoosemission) then {
+			wcmessageW = [localize "STR_WC_MESSAGEMISSIONCOMMANDEMENT", localize "STR_WC_MENUOPERATIONPLAN"];
+			wcgarbage = wcmessageW spawn EXT_fnc_infotext;
+			if(isnil "wcchoosemissionmenu") then {
+				wcchoosemissionmenu = player addAction ["<t color='#dddd00'>"+localize "STR_WC_MENUCHOOSEMISSION"+"</t>", "warcontext\dialogs\WC_fnc_createmenuchoosemission.sqf",[],6,false];
+			};
+		} else {
+			player removeaction wcchoosemissionmenu;
+			wcchoosemissionmenu = nil;
+		};
+	};
+
+	WC_fnc_netcode_wchintW = {
+		wchintW = _this select 0;
+		hintsilent wchintW;
+	};
+
+	WC_fnc_netcode_wcmessageW = {
+		wcmessageW = _this select 0;
+		wcgarbage = wcmessageW spawn EXT_fnc_infotext;
+	};
+
+	WC_fnc_netcode_wcbombingavalaible = {
+		wcbombingavalaible = _this select 0;
+	};
+
+	WC_fnc_netcode_wccivilkilled = {
+		wccivilkilled = _this select 0;
+	};
+
+	WC_fnc_netcode_wcenemykilled = {
+		wcenemykilled = _this select 0;
+	};
+
+	WC_fnc_netcode_wcteamscore = {
+		wcteamscore = _this select 0;
+	};
+
+	WC_fnc_netcode_wcalert = {
+		wcalert = _this select 0;
+	};
+
+	WC_fnc_netcode_wccfgpatches = {
+		wccfgpatches = _this select 0;
+	};
+
+	WC_fnc_netcode_wcinteam = {
+		wcinteam = _this select 0;
+	};
+
+	WC_fnc_netcode_wclistofmissions = {
+		wclistofmissions = _this select 0;
+	};
+
+	WC_fnc_netcode_wclistofweapons = {
+		wclistofweapons = _this select 0;
+	};
+
+	WC_fnc_netcode_wcnuclearzone = {
+		wcnuclearzone = _this select 0;
+	};
+
+	WC_fnc_netcode_wcteleport = {
+		wcteleport = _this select 0;
+	};
+
+	WC_fnc_netcode_wchostage = {
+		wchostage = _this select 0;
+	};
+
+	WC_fnc_netcode_wcday = {
+		wcday = _this select 0;
+	};
+
+	WC_fnc_netcode_wckindofserver = {
+		wckindofserver = _this select 0;
+	};
+
+	WC_fnc_netcode_wcselectedzone = {
+		wcselectedzone = _this select 0;
+	};
+
+	WC_fnc_netcode_wcradioalive = {
+		wcradioalive = _this select 0;
+	};
+
+	WC_fnc_netcode_wcskill = {
+		wcskill = _this select 0;
+	};
+
+	WC_fnc_netcode_wclevel = {
+		wclevel = _this select 0;
+	};
+
+	WC_fnc_netcode_wcmissioncount = {
+		wcmissioncount = _this select 0;
+	};
+
+	WC_fnc_netcode_wclight = {
+		wclight = _this select 0;
+	};
+
+	WC_fnc_netcode_wcwithlight = {
+		wcwithlight = _this select 0;
+	};
+
+	WC_fnc_netcode_wclevelmax = {
+		wclevelmax = _this select 0;
+	};
+
+	WC_fnc_netcode_wcengineerclass = {
+		wcengineerclass = _this select 0;
+	};
+
+	WC_fnc_netcode_wcmedicclass = {
+		wcmedicclass = _this select 0;
+	};
+
+	WC_fnc_netcode_wcscorelimitmin = {
+		wcscorelimitmin = _this select 0;
+	};
+
+	WC_fnc_netcode_wcscorelimitmax = {
+		wcscorelimitmax = _this select 0;
+	};
+
+	WC_fnc_netcode_wcteamspeak = {
+		wcteamspeak = _this select 0;
+	};
+
+	WC_fnc_netcode_wckindofgame = {
+		wckindofgame = _this select 0;
+	};
+
+	WC_fnc_netcode_wcviewdistance = {
+		wcviewdistance = _this select 0;
+	};
+
+	WC_fnc_netcode_wcwestside = {
+		wcwestside = _this select 0;
+	};
+
+	WC_fnc_netcode_wcautoloadweapons = {
+		wcautoloadweapons = _this select 0;
+	};
+
+	WC_fnc_netcode_wcmotd = {
+		wcmotd = _this select 0;
+	};
+
+	WC_fnc_netcode_wcversion = {
+		wcversion = _this select 0;
+	};
+
+	WC_fnc_netcode_wcrecruitberanked = {
+		wcrecruitberanked = _this select 0;
+	};
+
+	WC_fnc_netcode_wcwithcam = {
+		wcwithcam = _this select 0;
+	};
+
+	WC_fnc_netcode_wcwithonelife = {
+		wcwithonelife = _this select 0;
+	};
+
+	WC_fnc_netcode_wcwithmarkers = {
+		wcwithmarkers = _this select 0;
+	};
+
+	WC_fnc_netcode_wceverybodymedic = {
+		wceverybodymedic = _this select 0;
+	};
+
+	WC_fnc_netcode_wcwithvehicles = {
+		wcwithvehicles = _this select 0;
+	};
+
+	WC_fnc_netcode_wconelife = {
+		wconelife = _this select 0;
+	};
+
+	player addEventHandler ['Fired', '
+		private ["_name"];
+		if!(wcdetected) then {
+			if((getmarkerpos "rescue") distance (position player) < 400) then {
+				_name = _this select 5;
+				_ammo = _this select 5;
+				_name = getText (configFile >> "CfgMagazines" >> _name >> "displayNameShort");
+				_ammo = getText (configFile >> "CfgMagazines" >> _ammo >> "ammo");
+		if!(_name == "SD" || _ammo == "B_9x39_SP5" || _ammo == "ACE_B_9x39_SP6") then {
+					wcalerttoadd = random (10);
+					["wcalerttoadd", "server"] call WC_fnc_publicvariable;
+				};
+			};
+		};
+		wcammoused = wcammoused + 1;
+	'];
+
+	// arcade mode
+	if(wckindofgame == 1) then {
+		player addEventHandler ['HandleDamage', {
+			if(vehicle (_this select 0) == (_this select 0)) then {
+				(_this select 0) setdamage ( (getdammage(_this select 0)) + ((_this select 2)/10) );
+			} else {
+				(_this select 0) setdamage ( (getdammage(_this select 0)) + ((_this select 2)/2) );
+			};
+		}];
+	};
+
+	// practice mode
+	if(wckindofgame == 3) then {
+		player addEventHandler ['Fired', '
+				_position = getposatl (_this select 6);
+				_velocity = velocity (_this select 6);
+				(_this select 0) setvehicleammo 1;
+				_type = typeof (_this select 6);
+		'];
+		player addEventHandler ['HandleDamage', {
+			if(vehicle (_this select 0) == (_this select 0)) then {
+				(_this select 0) setdamage ( (getdammage(_this select 0)) + ((_this select 2)/100) );
+			} else {
+				(_this select 0) setdamage ( (getdammage(_this select 0)) + ((_this select 2)/20) );
+			};
+		}];
+	};
+
+	(findDisplay 46) displayAddEventHandler ["KeyDown","_this call WC_fnc_keymapper;"];

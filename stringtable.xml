@@ -1,0 +1,1599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="DayZ">
+	<Package name="missions">
+		<Key ID="STR_MinorM1">
+			<Original>Обнаружены охотники-бандиты! Позиция обозначена на карте!</Original>
+<Russian>Обнаружены охотники-бандиты! Позиция обозначена на карте!</Russian>
+			<English>A bandit hunting party has been spotted! Check your map for the location!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM1short">
+			<Original>Сходка охотников!</Original>
+			<Russian>Сходка охотников!</Russian>
+			<English>A bandit hunting party!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM1end">
+			<Original>Сходка охотников зачищена!</Original>
+			<Russian>Сходка охотников зачищена!</Russian>
+			<English>The hunting party has been wiped out!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM2">
+			<Original>Группа бандитов захватила Полевой Госпиталь! Позиция обозначена на карте!</Original>
+			<Russian>Группа бандитов захватила Полевой Госпиталь! Позиция обозначена на карте!</Russian>
+			<English>A group of bandits have taken over a Medical Outpost! Check your map for the location!</English>
+		</Key>
+		<Key ID="STR_MinorM2short">
+			<Original>Полевой Госпиталь</Original>
+			<Russian>Полевой Госпиталь</Russian>
+			<English>Medical Outpost!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM2end">
+			<Original>Полевой Госпиталь под контролем выживших!</Original>
+			<Russian>Полевой Госпиталь под контролем выживших!</Russian>
+			<English>The Medical Outpost is under survivor control!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM3">
+			<Original>Группа бандитов организовали нычку! Позиция обозначена на карте!</Original>
+			<Russian>Группа бандитов организовали нычку! Позиция обозначена на карте!</Russian>
+			<English>A group of bandits have set up a stash house! Check your map for the location!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM3short">
+			<Original>Нычка!</Original>
+			<Russian>Нычка!</Russian>
+			<English>Stash house!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM3end">
+			<Original>Нычка под контролем выживших!</Original>
+			<Russian>Нычка под контролем выживших!</Russian>
+			<English>The stash house is under survivor control!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM4">
+			<Original>Вертолет бандитов потерпел крушение, место обозначено на карте!</Original>
+			<Russian>Вертолет бандитов потерпел крушение, место обозначено на карте!</Russian>
+			<English>A bandit helicopter has crashed! Check your map for the location!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM4short">
+			<Original>Вертолет бандитов потерпел крушение!</Original>
+			<Russian>Вертолет бандитов потерпел крушение!</Russian>
+			<English>A bandit helicopter has crashed!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM4end">
+			<Original>Место падения зачищено выжившими!</Original>
+			<Russian>Место падения зачищено выжившими!</Russian>
+			<English>Wrecked Chopper has been secured by survivors!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM5">
+			<Original>Хаммер разбился, свертесь с картой!</Original>
+			<Russian>Хаммер разбился, свертесь с картой!</Russian>
+			<English>A Humvee has crashed! Check your map for the location!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM5short">
+			<Original>Разбитый хаммер!</Original>
+			<Russian>Разбитый хаммер!</Russian>
+			<English>A Humvee has crashed!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM5end">
+			<Original>Место аварии зачищено выжившими!</Original>
+			<Russian>Место аварии зачищено выжившими!</Russian>
+			<English>The crash site has been secured by survivors!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM6">
+			<Original>Грузовик с вооружением бандитов попал в аварию!</Original>
+			<Russian>Грузовик с вооружением бандитов попал в аварию!</Russian>
+			<English>A bandit weapons truck has crashed! Check your map for the location!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM6short">
+			<Original>Грузовик с вооружением бандитов</Original>
+			<Russian>Грузовик с вооружением бандитов</Russian>
+			<English>A bandit weapons truck has crashed!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM6end">
+			<Original>Место аварии зачищено выжившими!</Original>
+			<Russian>Место аварии зачищено выжившими!</Russian>
+			<English>The crash site has been secured by survivors!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM6short">
+			<Original>Грузовик с вооружением бандитов</Original>
+			<Russian>Грузовик с вооружением бандитов</Russian>
+			<English>A bandit weapons truck has crashed!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM7">
+			<Original>Обнаружена комманда снайперов, убейте их!</Original>
+			<Russian>Обнаружена комманда снайперов, убейте их!</Russian>
+			<English>A sniper team has been spotted!Kill'em all</English>
+			
+		</Key>
+		<Key ID="STR_MinorM7short">
+			<Original>Комманда снайперов!</Original>
+			<Russian>Комманда снайперов!</Russian>
+			<English>A sniper team has been spotted!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM7end">
+			<Original>Снайперы были убиты выжившими, заберите их инвентарь!</Original>
+			<Russian>Снайперы были убиты выжившими, заберите их инвентарь!</Russian>
+			<English>Snipers killed by survivors! Now loot the corpses!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM8">
+			<Original>Обнаружен лагерь бандитов!</Original>
+			<Russian>Обнаружен лагерь бандитов!</Russian>
+			<English>A bandits camp located and marked on map!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM8short">
+			<Original>Лагерь бандитов</Original>
+			<Russian>Лагерь бандитов</Russian>
+			<English>Bandits camp</English>
+			
+		</Key>
+		<Key ID="STR_MinorM8end">
+			<Original>Вы зачистили лагерь, отличная работа.</Original>
+			<Russian>Вы зачистили лагерь, отличная работа.</Russian>
+			<English>You are secured the camp! Congratulations!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM9">
+			<Original>Селюки проникли на территорию!</Original>
+			<Russian>Селюки проникли на территорию!</Russian>
+			<English>Hillbillies have moved into the area!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM9short">
+			<Original>Селюки проникли на территорию!</Original>
+			<Russian>Селюки проникли на территорию!</Russian>
+			<English>Hillbillies have moved into the area!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM9end">
+			<Original>Выжившие убили селюков! Заберите их инвентарь!</Original>
+			<Russian>Выжившие убили селюков! Заберите их инвентарь!</Russian>
+			<English>Survivors killed all Hillies! Loot their corpses!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM10">
+			<Original>Вертолет потерпел крушение! Убейте выживших и соберите лут!</Original>
+			<Russian>Вертолет потерпел крушение! Убейте выживших и соберите лут!</Russian>
+			<English>A helicopter has crashed! Kill any survivors and secure the loot!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM10short">
+			<Original>Вертолет потерпел крушение!</Original>
+			<Russian>Вертолет потерпел крушение!</Russian>
+			<English>A helicopter has crashed!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM10end">
+			<Original>Место падения зачищено выжившими!</Original>
+			<Russian>Место падения зачищено выжившими!</Russian>
+			<English>Wrecked Chopper has been secured by survivors!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM11">
+			<Original>Хаммер разбился, убейте выживших и соберите лут!</Original>
+			<Russian>Хаммер разбился, убейте выживших и соберите лут!</Russian>
+			<English>A humvee has crashed! Kill any survivors and secure the loot!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM11short">
+			<Original>Разбитый хаммер!</Original>
+			<Russian>Разбитый хаммер!</Russian>
+			<English>A humvee has crashed!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM11end">
+			<Original>Разбитый хаммер зачищен выжившими!</Original>
+			<Russian>Разбитый хаммер зачищен выжившими!</Russian>
+			<English>Wrecked HMMWV secured by survivors!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM12">
+			<Original>Разбился грузовик! Убейте выживших и соберите лут!</Original>
+			<Russian>Разбился грузовик! Убейте выживших и соберите лут!</Russian>
+			<English>A truck has crashed! Kill any survivors and secure the loot!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM12short">
+			<Original>Разбитый грузовик!</Original>
+			<Russian>Разбитый грузовик!</Russian>
+			<English>A truck has crashed!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM12end">
+			<Original>Грузовик зачищен выжившими!</Original>
+			<Russian>Грузовик зачищен выжившими!</Russian>
+			<English>Crashed Truck secured by survivors!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM13">
+			<Original>Психопат с топором сбежал из больницы!</Original>
+			<Russian>Психопат с топором сбежал из больницы!</Russian>
+			<English>A psychotic axe murderer has escaped from the hospital!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM13short">
+			<Original>Психопат-убийца!</Original>
+			<Russian>Психопат-убийца!</Russian>
+			<English>A psychotic axe murderer</English>
+			
+		</Key>
+		<Key ID="STR_MinorM13end">
+			<Original>Ну наконец-то он умер! Проверьте тело на предмет медикаметов!</Original>
+			<Russian>Ну наконец-то он умер! Проверьте тело на предмет медикаметов!</Russian>
+			<English>Finally! He died! Check the body for medical supplies!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM14">
+			<Original>Силы повстанцев собрались снести с лица земли нашу страну, уничтожте систему СКАД!</Original>
+			<Russian>Силы повстанцев собрались снести с лица земли нашу страну, уничтожте систему СКАД!</Russian>
+			<English>A nuclear SCUD launcher has been detected in enemy territory. Destroy it!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM14short">
+			<Original>Уничтожить систему СКАД!</Original>
+			<Russian>Уничтожить систему СКАД!</Russian>
+			<English>Destroy nuclear SCUD launcher!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM14end">
+			<Original>Система СКАД уничтожена!</Original>
+			<Russian>Система СКАД уничтожена!</Russian>
+			<English>Nuclear SCUD launcher has been destroyed!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM15">
+			<Original>Поставщик золота собирается заключить сделку с бандитами, убейте его</Original>
+			<Russian>Поставщик золота собирается заключить сделку с бандитами, убейте его</Russian>
+			<English>A gold trafficker is running his smuggling operation through this location</English>
+			
+		</Key>
+		<Key ID="STR_MinorM15short">
+			<Original>Убить поставщика золота</Original>
+			<Russian>Убить поставщика золота</Russian>
+			<English>Kill a gold trafficker</English>
+			
+		</Key>
+		<Key ID="STR_MinorM15end">
+			<Original>Поставщик золота убит</Original>
+			<Russian>Поставщик золота убит</Russian>
+			<English>A gold trafficker was killed</English>
+			
+		</Key>
+		<Key ID="STR_MinorM16">
+			<Original>Ученый ядерщик хочет предложить повстанцам новое оружие, убейте его</Original>
+			<Russian>Ученый ядерщик хочет предложить повстанцам новое оружие, убейте его</Russian>
+			<English>The enemy are employing a famous Russian scientist to work on a secret project.</English>
+			
+		</Key>
+		<Key ID="STR_MinorM16short">
+			<Original>Убить ученого ядерщика</Original>
+			<Russian>Убить ученого ядерщика</Russian>
+			<English>Kill a nuclear scientist</English>
+			
+		</Key>
+		<Key ID="STR_MinorM16end">
+			<Original>Ученый ядерщик убит</Original>
+			<Russian>Ученый ядерщик убит</Russian>
+			<English>A nuclear scientist was killed</English>
+			
+		</Key>
+		<Key ID="STR_MinorM17">
+			<Original>Обнаружен тренировочный лагерь повстанцев, уничтожте баррак, где тренируют бандитов</Original>
+			<Russian>Обнаружен тренировочный лагерь повстанцев, уничтожте баррак, где тренируют бандитов</Russian>
+			<English>Intel reports an enemy special forces camp at the marked position.</English>
+			
+		</Key>
+		<Key ID="STR_MinorM17short">
+			<Original>Уничтожить баррак</Original>
+			<Russian>Уничтожить баррак</Russian>
+			<English>Destroy the barracks</English>
+			
+		</Key>
+		<Key ID="STR_MinorM17end">
+			<Original>Баррак уничтожен</Original>
+			<Russian>Баррак уничтожен</Russian>
+			<English>The barracks has been destroyed</English>
+			
+		</Key>
+		<Key ID="STR_MinorM18">
+			<Original>Уничтожте урал дозаправщик</Original>
+			<Russian>Уничтожте урал дозаправщик</Russian>
+			<English>The enemy is waiting for a fuel delivery. Destroy the truck transporting it!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM18short">
+			<Original>Уничтожить бензовоз</Original>
+			<Russian>Уничтожить бензовоз</Russian>
+			<English>Destroy Ural refuel</English>
+			
+		</Key>
+		<Key ID="STR_MinorM18end">
+			<Original>Урал уничтожен</Original>
+			<Russian>Урал уничтожен</Russian>
+			<English>Ural was detroyed</English>
+			
+		</Key>
+		<Key ID="STR_MinorM19">
+			<Original>Уничтожить урал ЗУ-23</Original>
+			<Russian>Уничтожить урал ЗУ-23</Russian>
+			<English>Destroy Ural ZU-23</English>
+			
+		</Key>
+		<Key ID="STR_MinorM19short">
+			<Original>Уничтожить урал ЗУ-23</Original>
+			<Russian>Уничтожить урал ЗУ-23</Russian>
+			<English>Destroy Ural ZU-23</English>
+			
+		</Key>
+		<Key ID="STR_MinorM19end">
+			<Original>Урал уничтожен</Original>
+			<Russian>Урал уничтожен</Russian>
+			<English>Ural ZU-23 has been destroyed</English>
+			
+		</Key>
+		<Key ID="STR_MinorM20">
+			<Original>Убейте коммандующего повстанцами</Original>
+			<Russian>Убейте коммандующего повстанцами</Russian>
+			<English>An insurgent commander is visiting this place</English>
+			
+		</Key>
+		<Key ID="STR_MinorM20short">
+			<Original>Убить коммандующего повстанцами</Original>
+			<Russian>Убить коммандующего повстанцами</Russian>
+			<English>Kill an insurgent commander</English>
+			
+		</Key>
+		<Key ID="STR_MinorM20end">
+			<Original>Коммандующий убит</Original>
+			<Russian>Коммандующий убит</Russian>
+			<English>An insurgent commander eliminated</English>
+			
+		</Key>
+		<Key ID="STR_MinorM21">
+			<Original>Уничтожить штаб БМП-2</Original>
+			<Russian>Уничтожить штаб БМП-2</Russian>
+			<English>Destroy a BMP2 HQ</English>
+			
+		</Key>
+		<Key ID="STR_MinorM21short">
+			<Original>Уничтожить штаб БМП-2</Original>
+			<Russian>Уничтожить штаб БМП-2</Russian>
+			<English>Destroy a BMP2 HQ</English>
+			
+		</Key>
+		<Key ID="STR_MinorM21end">
+			<Original>Штаб уничтожен</Original>
+			<Russian>Штаб уничтожен</Russian>
+			<English>A BMP2 HQ has been destroyed</English>
+			
+		</Key>
+		<Key ID="STR_MinorM22">
+			<Original>Уничтожить малую цистерну с топливом</Original>
+			<Russian>Уничтожить малую цистерну с топливом</Russian>
+			<English>Destroy a small fuel location</English>
+			
+		</Key>
+		<Key ID="STR_MinorM22short">
+			<Original>Уничтожить малую цистерну с топливом</Original>
+			<Russian>Уничтожить малую цистерну с топливом</Russian>
+			<English>Destroy a small fuel location</English>
+			
+		</Key>
+		<Key ID="STR_MinorM22end">
+			<Original>Цистерна уничтожена</Original>
+			<Russian>Цистерна уничтожена</Russian>
+			<English>A small fuel location was destroyed</English>
+			
+		</Key>
+		<Key ID="STR_MinorM23">
+			<Original>Уничтожить большую цистерну с топливом</Original>
+			<Russian>Уничтожить большую цистерну с топливом</Russian>
+			<English>Destroy a big fuel location</English>
+			
+		</Key>
+		<Key ID="STR_MinorM23short">
+			<Original>Уничтожить большую цистерну с топливом</Original>
+			<Russian>Уничтожить большую цистерну с топливом</Russian>
+			<English>Destroy a big fuel location</English>
+			
+		</Key>
+		<Key ID="STR_MinorM23end">
+			<Original>Цистерна уничтожена</Original>
+			<Russian>Цистерна уничтожена</Russian>
+			<English>A big fuel location was destroyed</English>
+			
+		</Key>
+		<Key ID="STR_MinorM24">
+			<Original>Группа коммандо собирается покинуть територию на вертолете, уничтожте их!</Original>
+			<Russian>Группа коммандо собирается покинуть територию на вертолете, уничтожте их!</Russian>
+			<English>Destroy a commando group</English>
+			
+		</Key>
+		<Key ID="STR_MinorM24short">
+			<Original>Уничтожить группу коммандо</Original>
+			<Russian>Уничтожить группу коммандо</Russian>
+			<English>Destroy a commando group</English>
+			
+		</Key>
+		<Key ID="STR_MinorM24end">
+			<Original>Группа коммандо уничтожена</Original>
+			<Russian>Группа коммандо уничтожена</Russian>
+			<English>Commando group were eliminated</English>
+			
+		</Key>
+		<Key ID="STR_MinorM25">
+			<Original>Уничтожте транспортный вертолет</Original>
+			<Russian>Уничтожте транспортный вертолет</Russian>
+			<English>Destroy a transport chopper</English>
+			
+		</Key>
+		<Key ID="STR_MinorM25short">
+			<Original>Уничтожить транспортный вертолет</Original>
+			<Russian>Уничтожить транспортный вертолет</Russian>
+			<English>Destroy a transport chopper</English>
+			
+		</Key>
+		<Key ID="STR_MinorM25end">
+			<Original>Транспортный вертолет уничтожен</Original>
+			<Russian>Транспортный вертолет уничтожен</Russian>
+			<English>Transport chopper has been destroyed</English>
+			
+		</Key>
+		<Key ID="STR_MinorM26">
+			<Original>Убейте шпиона, сливающего информацию о базах выживших</Original>
+			<Russian>Убейте шпиона, сливающего информацию о базах выживших</Russian>
+			<English>Intel has reported that a renegade spy is going to leak classified intelligence to the enemy. Find him and kill him!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM26short">
+			<Original>Убить шпиона</Original>
+			<Russian>Убить шпиона</Russian>
+			<English>Kill the spy</English>
+			
+		</Key>
+		<Key ID="STR_MinorM26end">
+			<Original>Шпион убит</Original>
+			<Russian>Шпион убит</Russian>
+			<English>The spy was eliminated</English>
+			
+		</Key>
+		<Key ID="STR_MinorM27">
+			<Original>Уничтожте контейнер с контрабандой</Original>
+			<Russian>Уничтожте контейнер с контрабандой</Russian>
+			<English>There is contraband believed to be a drugs shipment in this village. Destroy it.</English>
+			
+		</Key>
+		<Key ID="STR_MinorM27short">
+			<Original>Уничтожить контейнер с контрабандой</Original>
+			<Russian>Уничтожить контейнер с контрабандой</Russian>
+			<English>Destroy a contraband conteiner</English>
+			
+		</Key>
+		<Key ID="STR_MinorM27end">
+			<Original>Контейнер уничтожен</Original>
+			<Russian>Контейнер уничтожен</Russian>
+			<English>Conteiner was destroyed</English>
+			
+		</Key>
+		<Key ID="STR_MinorM28">
+			<Original>Найдите и уничожте подрывника</Original>
+			<Russian>Найдите и уничожте подрывника</Russian>
+			<English>A suicide bomber has been identified near village by local civilians. They want him taken out before anyone gets hurt. Find him and stop him!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM28short">
+			<Original>Уничтожить подрывника</Original>
+			<Russian>Уничтожить подрывника</Russian>
+			<English>Locate and eliminate a suicide bomber</English>
+			
+		</Key>
+		<Key ID="STR_MinorM28end">
+			<Original>Подрывник убит</Original>
+			<Russian>Подрывник убит</Russian>
+			<English>A suicide bomber was eliminated</English>
+			
+		</Key>
+		<Key ID="STR_MinorM29">
+			<Original>Убейте оружейного барона</Original>
+			<Russian>Убейте оружейного барона</Russian>
+			<English>A warlord who is terrorizing the country has been located. Eliminate him!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM29short">
+			<Original>Убить оружейного барона</Original>
+			<Russian>Убить оружейного барона</Russian>
+			<English>Kill a warlord</English>
+			
+		</Key>
+		<Key ID="STR_MinorM29end">
+			<Original>Барон убит</Original>
+			<Russian>Барон убит</Russian>
+			<English>A warlord was eliminated</English>
+			
+		</Key>
+		<Key ID="STR_MinorM30">
+			<Original>Убейте офицера повстанцев</Original>
+			<Russian>Убейте офицера повстанцев</Russian>
+			<English>An insurgent officer is visiting this village to meet with bandits about training them. Eliminate him!</English>
+			
+		</Key>
+		<Key ID="STR_MinorM30short">
+			<Original>Убить офицера повстанцев</Original>
+			<Russian>Убить офицера повстанцев</Russian>
+			<English>Kill an insurgent officer</English>
+			
+		</Key>
+		<Key ID="STR_MinorM30end">
+			<Original>Офицер убит</Original>
+			<Russian>Офицер убит</Russian>
+			<English>An insurgent officer was eliminated</English>
+			
+		</Key>
+		<Key ID="STR_MinorM31">
+			<Original>Уничтожте зенитное орудие</Original>
+			<Russian>Уничтожте зенитное орудие</Russian>
+			<English>Destroy an AA pod</English>
+			
+		</Key>
+	<Key ID="STR_MinorM31short">
+			<Original>Уничтожить зенитное орудие</Original>
+			<Russian>Уничтожить зенитное орудие</Russian>
+			<English>Destroy ZU-23</English>
+			
+		</Key>
+	<Key ID="STR_MinorM31end">
+			<Original>ЗУ-23 уничтожено</Original>
+			<Russian>ЗУ-23 уничтожено</Russian>
+			<English>ZU-23 was destroyed</English>
+			
+		</Key>
+	<Key ID="STR_MinorM32">
+			<Original>Уничтожте установку ГРАД</Original>
+			<Russian>Уничтожте установку ГРАД</Russian>
+			<English>Destroy a missile launcher</English>
+			
+		</Key>
+	<Key ID="STR_MinorM32short">
+			<Original>Уничтожить установку ГРАД</Original>
+			<Russian>Уничтожить установку ГРАД</Russian>
+			<English>Destroy a missile launcher</English>
+			
+		</Key>
+	<Key ID="STR_MinorM32end">
+			<Original>ГРАД уничтожен</Original>
+			<Russian>ГРАД уничтожен</Russian>
+			<English>Missile launcher has been destroyed</English>
+			
+		</Key>
+	<Key ID="STR_MinorM33">
+			<Original>Уничтожте электростанцию</Original>
+			<Russian>Уничтожте электростанцию</Russian>
+			<English>A power generator provides energy for enemy structures around this location. Put it out of action.</English>
+			
+		</Key>
+	<Key ID="STR_MinorM33short">
+			<Original>Уничтожить электростанцию</Original>
+			<Russian>Уничтожить электростанцию</Russian>
+			<English>Destroy a power generator</English>
+			
+		</Key>
+	<Key ID="STR_MinorM33end">
+			<Original>Электростанция уничтожена</Original>
+			<Russian>Электростанция уничтожена</Russian>
+			<English>A power generator was destroyed</English>
+			
+		</Key>
+	<Key ID="STR_MinorM34">
+			<Original>Уничтожте ЗСУ</Original>
+			<Russian>Уничтожте ЗСУ</Russian>
+			<English>Destroy a ZSU</English>
+			
+		</Key>
+	<Key ID="STR_MinorM34short">
+			<Original>Уничтожить ЗСУ</Original>
+			<Russian>Уничтожить ЗСУ</Russian>
+			<English>Destroy a ZSU</English>
+			
+		</Key>
+	<Key ID="STR_MinorM34end">
+			<Original>ЗСУ уничтожена</Original>
+			<Russian>ЗСУ уничтожена</Russian>
+			<English>ZSU was destroyed</English>
+			
+		</Key>
+	<Key ID="STR_MinorM35">
+			<Original>Уничтожте T72</Original>
+			<Russian>Уничтожте T72</Russian>
+			<English>Destroy a T72</English>
+			
+		</Key>
+	<Key ID="STR_MinorM35short">
+			<Original>Уничтожить T72</Original>
+			<Russian>Уничтожить T72</Russian>
+			<English>Destroy a T72</English>
+			
+		</Key>
+	<Key ID="STR_MinorM35end">
+			<Original>T72 уничтожен</Original>
+			<Russian>T72 уничтожен</Russian>
+			<English>T72 has been destroyed</English>
+			
+		</Key>
+	<Key ID="STR_MinorM36">
+			<Original>Освободите заложника</Original>
+			<Russian>Освободите заложника</Russian>
+			<English>Liberate a hostage</English>
+			
+		</Key>
+	<Key ID="STR_MinorM36short">
+			<Original>Освободить заложника</Original>
+			<Russian>Освободить заложника</Russian>
+			<English>Liberate a hostage</English>
+			
+		</Key>
+	<Key ID="STR_MinorM36end1">
+			<Original>Миссия провалена! Заложник убит</Original>
+			<Russian>Миссия провалена! Заложник убит</Russian>
+			<English>Mission Failed! The hostage was killed</English>
+			
+		</Key>
+	<Key ID="STR_MinorM36end2">
+			<Original>Миссия выполнена - заложник в безопасности</Original>
+			<Russian>Миссия выполнена - заложник в безопасности</Russian>
+			<English>The hostage was rescued</English>
+			
+		</Key>
+	<Key ID="STR_MinorM37">
+			<Original>Освободите офицера</Original>
+			<Russian>Освободите офицера</Russian>
+			<English>Liberate an officer</English>
+			
+		</Key>
+	<Key ID="STR_MinorM37short">
+			<Original>Освободить офицера</Original>
+			<Russian>Освободить офицера</Russian>
+			<English>Liberate an officer</English>
+			
+		</Key>
+	<Key ID="STR_MinorM37end1">
+			<Original>Миссия провалена - офицер убит</Original>
+			<Russian>Миссия провалена - офицер убит</Russian>
+			<English>Mission failed! An officer was killed!</English>
+			
+		</Key>
+	<Key ID="STR_MinorM37end2">
+			<Original>Миссия выполнена - офицер в безопасности</Original>
+			<Russian>Миссия выполнена - офицер в безопасности</Russian>
+			<English>An officer was rescued!</English>
+			
+		</Key>
+	<Key ID="STR_MinorM38">
+			<Original>Освободите туриста</Original>
+			<Russian>Освободите туриста</Russian>
+			<English>Liberate a tourist</English>
+			
+		</Key>
+	<Key ID="STR_MinorM38short">
+			<Original>Освободить туриста</Original>
+			<Russian>Освободить туриста</Russian>
+			<English>Liberate a tourist</English>
+			
+		</Key>
+	<Key ID="STR_MinorM38end1">
+			<Original>Миссия провалена - турист убит</Original>
+			<Russian>Миссия провалена - турист убит</Russian>
+			<English>Mission failed! A tourist was killed</English>
+			
+		</Key>
+	<Key ID="STR_MinorM38end2">
+			<Original>Миссия выполнена - турист в безопасности</Original>
+			<Russian>Миссия выполнена - турист в безопасности</Russian>
+			<English>A tourist was rescued succesfully</English>
+			
+		</Key>
+			<Key ID="STR_MinorM39">
+			<Original>Sabotage a ZSU</Original>
+			<Russian>Саботируйте ЗСУ</Russian>
+			<English>Sabotage a ZSU</English>
+			
+		</Key>
+					<Key ID="STR_MinorM39short">
+			<Original>Sabotage a ZSU</Original>
+			<Russian>Саботировать ЗСУ</Russian>
+			<English>Sabotage a ZSU</English>
+			
+		</Key>
+							<Key ID="STR_MinorM39end1">
+			<Original>Mission failed! You were detected!</Original>
+			<Russian>Миссия провалена! Вас обнаружили и подняли тревогу!</Russian>
+			<English>Mission failed! You were detected!</English>
+			
+		</Key>
+									<Key ID="STR_MinorM39end2">
+			<Original>Mission failed! Vehicle was destroyed!</Original>
+			<Russian>Миссия провалена! Техника уничтожена!</Russian>
+			<English>Mission failed! Vehicle was destroyed!</English>
+			
+		</Key>
+											<Key ID="STR_MinorM39end3">
+			<Original>Mission Success! The vehicle was saboted!</Original>
+			<Russian>Миссия выполнена! Техника успешно саботирована!</Russian>
+			<English>Mission Success! The vehicle was saboted!</English>
+			
+		</Key>
+			<Key ID="STR_MinorM40">
+			<Original>Sabotage a T72</Original>
+			<Russian>Саботировать Т72</Russian>
+			<English>Sabotage a T72</English>
+			
+		</Key>
+					<Key ID="STR_MinorM40short">
+			<Original>Sabotage a T72</Original>
+			<Russian>Саботировать Т72</Russian>
+			<English>Sabotage a T72</English>
+			
+		</Key>
+			<Key ID="STR_MinorM41">
+			<Original>Steal a secret document</Original>
+			<Russian>Украсть секретный документ</Russian>
+			<English>Steal a secret document</English>
+			
+		</Key>
+					<Key ID="STR_MinorM41short">
+			<Original>Steal a secret document</Original>
+			<Russian>Украсть секретный документ</Russian>
+			<English>Steal a secret document</English>
+			
+		</Key>
+							<Key ID="STR_MinorM41end1">
+			<Original>You were detected!Secret document was destroyed!</Original>
+			<Russian>Вы были обнаружены! Секретный документ уничтожен!</Russian>
+			<English>You were detected!Secret document was destroyed!</English>
+			
+		</Key>
+									<Key ID="STR_MinorM41end2">
+			<Original>The secret document was succsessfuly stolen by survivors!</Original>
+			<Russian>Секретный документ украден выжившими!</Russian>
+			<English>The secret document was succsessfuly stolen by survivors!</English>
+			
+		</Key>
+			<Key ID="STR_MinorM42">
+			<Original>Steal a BRDM-2</Original>
+			<Russian>Угнать БРДМ-2</Russian>
+			<English>Steal a BRDM-2</English>
+			
+		</Key>
+				<Key ID="STR_MinorM42short">
+			<Original>Steal a BRDM-2</Original>
+			<Russian>Угнать БРДМ-2</Russian>
+			<English>Steal a BRDM-2</English>
+			
+		</Key>
+						<Key ID="STR_MinorM42end1">
+			<Original>Mission failed! The vehicle was destroyed!</Original>
+			<Russian>Миссия провалена! Техника уничтожена!</Russian>
+			<English>Mission failed! The vehicle was destroyed!</English>
+			
+		</Key>
+								<Key ID="STR_MinorM42end2">
+			<Original>Mission complete! The vehicle was stolen successfuly!</Original>
+			<Russian>Миссия выполнена! Техника угнана!</Russian>
+			<English>Mission complete! The vehicle was stolen successfuly!</English>
+			
+		</Key>
+			<Key ID="STR_MinorM43">
+			<Original>Steal a BTR-90</Original>
+			<Russian>Угнать БТР-90</Russian>
+			<English>Steal a BTR-90</English>
+			
+		</Key>
+					<Key ID="STR_MinorM43short">
+			<Original>Steal a BTR-90</Original>
+			<Russian>Угнать БТР-90</Russian>
+			<English>Steal a BTR-90</English>
+			
+		</Key>
+			<Key ID="STR_MinorM44">
+			<Original>Steal an Ural</Original>
+			<Russian>Угнать Урал</Russian>
+			<English>Steal an Ural</English>
+			
+		</Key>
+					<Key ID="STR_MinorM44short">
+			<Original>Steal an Ural</Original>
+			<Russian>Угнать Урал</Russian>
+			<English>Steal an Ural</English>
+			
+		</Key>
+			<Key ID="STR_MinorM45">
+			<Original>Capture an insurgent commander</Original>
+			<Russian>Захватить коммандира повстанцев</Russian>
+			<English>Capture an insurgent commander</English>
+			
+		</Key>
+					<Key ID="STR_MinorM45short">
+			<Original>Capture an insurgent commander</Original>
+			<Russian>Захватить коммандира повстанцев</Russian>
+			<English>Capture an insurgent commander</English>
+			
+		</Key>
+			<Key ID="STR_MinorM45end1">
+			<Original>Mission Completed! The enemy is in jail!</Original>
+			<Russian>Задание выполнено! Теперь враг в тюрьме!</Russian>
+			<English>Mission Completed! The enemy is in jail!</English>
+			
+		</Key>
+					<Key ID="STR_MinorM45end2">
+			<Original>Mission failed! The enemy was killed!</Original>
+			<Russian>Задание провалено! Враг убит!</Russian>
+			<English>Mission failed! The enemy was killed!</English>
+			
+		</Key>
+			<Key ID="STR_MinorM46">
+			<Original>Capture an insurgent officer</Original>
+			<Russian>Захватить офицера повстанцев</Russian>
+			<English>Capture an insurgent officer</English>
+			
+		</Key>
+					<Key ID="STR_MinorM46short">
+			<Original>Capture an insurgent officer</Original>
+			<Russian>Захватить офицера повстанцев</Russian>
+			<English>Capture an insurgent officer</English>
+			
+		</Key>
+			<Key ID="STR_MinorM47">
+			<Original>Capture a Warlord</Original>
+			<Russian>Захватить торговца оружием</Russian>
+			<English>Capture a Warlord</English>
+			
+		</Key>
+					<Key ID="STR_MinorM47short">
+			<Original>Capture a Warlord</Original>
+			<Russian>Захватить торговца оружием</Russian>
+			<English>Capture a Warlord</English>
+			
+		</Key>
+			<Key ID="STR_MinorM48">
+			<Original>Capture a Civilian</Original>
+			<Russian>Захватить гражданского</Russian>
+			<English>Capture a Civilian</English>
+			
+		</Key>
+					<Key ID="STR_MinorM48short">
+			<Original>Capture a Civilian</Original>
+			<Russian>Захватить гражданского</Russian>
+			<English>Capture a Civilian</English>
+			
+		</Key>
+			<Key ID="STR_MinorM49">
+			<Original>Retrieve a KA-52</Original>
+			<Russian>Вернуть КА-52</Russian>
+			<English>Retrieve a KA-52</English>
+			
+		</Key>
+					<Key ID="STR_MinorM49short">
+			<Original>Retrieve a KA-52</Original>
+			<Russian>Вернуть КА-52</Russian>
+			<English>Retrieve a KA-52</English>
+			
+		</Key>
+			<Key ID="STR_MinorM50">
+			<Original>Retrieve an UH1H</Original>
+			<Russian>Вернуть UH1H</Russian>
+			<English>Retrieve an UH1H</English>
+			
+		</Key>
+					<Key ID="STR_MinorM50short">
+			<Original>Retrieve an UH1H</Original>
+			<Russian>Вернуть UH1H</Russian>
+			<English>Retrieve an UH1H</English>
+			
+		</Key>
+			<Key ID="STR_MinorM51">
+			<Original>Retrieve a T-90</Original>
+			<Russian>Вернуть T-90</Russian>
+			<English>Retrieve a T-90</English>
+			
+		</Key>
+					<Key ID="STR_MinorM51short">
+			<Original>Retrieve a T-90</Original>
+			<Russian>Вернуть T-90</Russian>
+			<English>Retrieve a T-90</English>
+			
+		</Key>
+			<Key ID="STR_MinorM52">
+			<Original>Retrieve a Mi-8</Original>
+			<Russian>Вернуть Ми-8</Russian>
+			<English>Retrieve a Mi-8</English>
+			
+		</Key>
+					<Key ID="STR_MinorM52short">
+			<Original>Retrieve a Mi-8</Original>
+			<Russian>Вернуть Ми-8</Russian>
+			<English>Retrieve a Mi-8</English>
+			
+		</Key>
+			<Key ID="STR_MinorM53">
+			<Original>Destroy an ammo cache</Original>
+			<Russian>Уничтожить кэш с оружием</Russian>
+			<English>Destroy an ammo cache</English>
+			
+		</Key>
+					<Key ID="STR_MinorM53short">
+			<Original>Destroy an ammo cache</Original>
+			<Russian>Уничтожить кэш с оружием</Russian>
+			<English>Destroy an ammo cache</English>
+			
+		</Key>
+		<Key ID="STR_MinorM54">
+			<Original>Retrieve a Mi-17</Original>
+			<Russian>Вернуть Ми-17</Russian>
+			<English>Retrieve a Mi-17</English>
+			
+		</Key>
+				<Key ID="STR_MinorM54short">
+			<Original>Retrieve a Mi-17</Original>
+			<Russian>Вернуть Ми-17</Russian>
+			<English>Retrieve a Mi-17</English>
+			
+		</Key>
+						<Key ID="STR_MinorM55">
+			<Original>Kill a woman civil</Original>
+			<Russian>Убить гражданскую женщину</Russian>
+			<English>Kill a woman civil</English>
+			
+		</Key>
+								<Key ID="STR_MinorM55short">
+			<Original>Kill a woman civil</Original>
+			<Russian>Убить гражданскую женщину</Russian>
+			<English>Kill a woman civil</English>
+			
+		</Key>
+										<Key ID="STR_MinorM55end">
+			<Original>Woman civil was killed</Original>
+			<Russian>Женщина убита</Russian>
+			<English>Woman civil was killed</English>
+			
+		</Key>
+			<Key ID="STR_MinorM56">
+			<Original>Rescue a pilot</Original>
+			<Russian>Спасти пилота</Russian>
+			<English>Rescue a pilot</English>
+			
+		</Key>
+					<Key ID="STR_MinorM56short">
+			<Original>Rescue a pilot</Original>
+			<Russian>Спасти пилота</Russian>
+			<English>Rescue a pilot</English>
+			
+		</Key>
+			<Key ID="STR_MinorM57">
+			<Original>Defend the area</Original>
+			<Russian>Защитить территорию</Russian>
+			<English>Defend the area</English>
+			
+		</Key>
+					<Key ID="STR_MinorM57short">
+			<Original>Defend the area</Original>
+			<Russian>Защитить территорию</Russian>
+			<English>Defend the area</English>
+			
+		</Key>
+							<Key ID="STR_MinorM57end1">
+			<Original>Mission completed! +4000 humanity!</Original>
+			<Russian>Задание выполнено! +4000 к человечности!</Russian>
+			<English>Mission completed! +4000 humanity!</English>
+			
+		</Key>
+									<Key ID="STR_MinorM57end2">
+			<Original>Mission failed! Too much died!</Original>
+			<Russian>Задание провалено! Слишком много убитых!</Russian>
+			<English>Mission failed! Too much died!</English>
+			
+		</Key>
+											<Key ID="STR_MinorM57end3">
+			<Original>Mission failed! Objective has been destroyed!</Original>
+			<Russian>Задание провалено! Объект был уничтожен!</Russian>
+			<English>Mission failed! Objective has been destroyed!</English>
+			
+		</Key>
+													<Key ID="STR_MinorM57allp">
+			<Original>All players must stay in AREA!</Original>
+			<Russian>Все игроки должны находиться в зоне</Russian>
+			<English>All players must stay in AREA!</English>
+			
+		</Key>
+															<Key ID="STR_MinorM57out">
+			<Original>Mission failed! Too much players out of area!</Original>
+			<Russian>Задание провалено! Все игроки должны оставаться в зоне!</Russian>
+			<English>Mission failed! Too much players out of area!</English>
+			
+		</Key>
+			<Key ID="STR_MinorM57end4">
+			<Original>Mission failed! The object has been captured!</Original>
+			<Russian>Задание провалено! Объект захвачен противником!</Russian>
+			<English>Mission failed! The object has been captured!</English>
+			
+		</Key>
+			<Key ID="STR_MinorM58">
+			<Original>Defend the barracks</Original>
+			<Russian>Защитить барраки</Russian>
+			<English>Defend the barracks</English>
+			
+		</Key>
+					<Key ID="STR_MinorM58short">
+			<Original>Defend the barracks</Original>
+			<Russian>Защитить барраки</Russian>
+			<English>Defend the barracks</English>
+			
+		</Key>
+			<Key ID="STR_MinorM59">
+			<Original>Rescue a C130 pilot</Original>
+			<Russian>Спасти пилота С130</Russian>
+			<English>Rescue a C130 pilot</English>
+			
+		</Key>
+					<Key ID="STR_MinorM59short">
+			<Original>Rescue a C130 pilot</Original>
+			<Russian>Спасти пилота С130</Russian>
+			<English>Rescue a C130 pilot</English>
+			
+		</Key>
+			<Key ID="STR_MinorM60">
+			<Original>Retrieve an SU-34 aircraft</Original>
+			<Russian>Вернуть СУ-34</Russian>
+			<English>Retrieve an SU-34 aircraft</English>
+			
+		</Key>
+					<Key ID="STR_MinorM60short">
+			<Original>Retrieve an SU-34 aircraft</Original>
+			<Russian>Вернуть СУ-34</Russian>
+			<English>Retrieve an SU-34 aircraft</English>
+			
+		</Key>
+			<Key ID="STR_MinorM61">
+			<Original>Retrieve a Mi17</Original>
+			<Russian>Вернуть Ми-17</Russian>
+			<English>Retrieve a Mi17</English>
+			
+		</Key>
+					<Key ID="STR_MinorM61short">
+			<Original>Retrieve a Mi17</Original>
+			<Russian>Вернуть Ми-17</Russian>
+			<English>Retrieve a Mi17</English>
+			
+		</Key>
+			<Key ID="STR_MinorM62">
+			<Original>Retrieve a Mi24v</Original>
+			<Russian>Вернуть Ми-24</Russian>
+			<English>Retrieve a Mi24v</English>
+			
+		</Key>
+					<Key ID="STR_MinorM62short">
+			<Original>Retrieve an Mi24v</Original>
+			<Russian>Вернуть Ми-24</Russian>
+			<English>Retrieve an Mi24v</English>
+			
+		</Key>
+							<Key ID="STR_MinorM62short">
+			<Original>Retrieve an Mi24v</Original>
+			<Russian>Вернуть Ми-24</Russian>
+			<English>Retrieve an Mi24v</English>
+			
+		</Key>
+			<Key ID="STR_MinorM63">
+			<Original>Destroy a SU25</Original>
+			<Russian>Уничтожить СУ-25</Russian>
+			<English>Destroy a SU25</English>
+			
+		</Key>
+					<Key ID="STR_MinorM63short">
+			<Original>Destroy a SU25</Original>
+			<Russian>Уничтожить СУ-25</Russian>
+			<English>Destroy a SU25</English>
+			
+		</Key>
+			<Key ID="STR_MinorM64">
+			<Original>Destroy a L39</Original>
+			<Russian>Уничтожить Л-39</Russian>
+			<English>Destroy a L39</English>
+			
+		</Key>
+					<Key ID="STR_MinorM64short">
+			<Original>Destroy a L39</Original>
+			<Russian>Уничтожить Л-39</Russian>
+			<English>Destroy a L39</English>
+			
+		</Key>
+							<Key ID="STR_MinorM65">
+			<Original>Heal a civilian</Original>
+			<Russian>Вылечить гражданского</Russian>
+			<English>Heal a civilian</English>
+			
+		</Key>
+									<Key ID="STR_MinorM65short">
+			<Original>Heal a civilian</Original>
+			<Russian>Вылечить гражданского</Russian>
+			<English>Heal a civilian</English>
+			
+		</Key>
+											<Key ID="STR_MinorM65end1">
+			<Original>Mission failed! Civilian was killed!</Original>
+			<Russian>Задание провалено! Гражданский убит!</Russian>
+			<English>Mission failed! Civilian was killed!</English>
+			
+		</Key>
+													<Key ID="STR_MinorM65end2">
+			<Original>Mission completed! Cavilian is healed!</Original>
+			<Russian>Задание выполнено! Гражданский вылечен!</Russian>
+			<English>Mission completed! Cavilian is healed!</English>
+			
+		</Key>
+			<Key ID="STR_MinorM66">
+			<Original>Rescue 10 civils</Original>
+			<Russian>Спасти 10 гражданских</Russian>
+			<English>Rescue 10 civils</English>
+			
+		</Key>
+					<Key ID="STR_MinorM66short">
+			<Original>Rescue 10 civils</Original>
+			<Russian>Спасти 10 гражданских</Russian>
+			<English>Rescue 10 civils</English>
+			
+		</Key>
+							<Key ID="STR_MinorM66end2">
+			<Original>Mission failed! Too many civils died!</Original>
+			<Russian>Задание провалено! Слишком много гражданских погибло!</Russian>
+			<English>Mission failed! Too many civils died!</English>
+			
+		</Key>
+									<Key ID="STR_MinorM66end1">
+			<Original>Mission completed! Civils are rescued!</Original>
+			<Russian>Задание выполнено! Гражданские спасины!</Russian>
+			<English>Mission completed! Civils are rescued!</English>
+			
+		</Key>
+			<Key ID="STR_MinorM67">
+			<Original>Secure an Airfield zone</Original>
+			<Russian>Зачистить зону аэродрома</Russian>
+			<English>Secure an Airfield zone</English>
+			
+		</Key>
+					<Key ID="STR_MinorM67short">
+			<Original>Secure an Airfield zone</Original>
+			<Russian>Зачистить зону аэродрома</Russian>
+			<English>Secure an Airfield zone</English>
+			
+		</Key>
+							<Key ID="STR_MinorM67end1">
+			<Original>Airfield is secured!</Original>
+			<Russian>Аэродром зачищен!</Russian>
+			<English>Airfield is secured!</English>
+			
+		</Key>
+			<Key ID="STR_MinorM68">
+			<Original>Bring an ammotruck from safe zone</Original>
+			<Russian>Доставте грузовик с боеприпасами из безопасной зоны</Russian>
+			<English>Bring an ammotruck from safe zone</English>
+			
+		</Key>
+					<Key ID="STR_MinorM68short">
+			<Original>Bring an ammotruck from safe zone</Original>
+			<Russian>Доставте грузовик с боеприпасами из безопасной зоны</Russian>
+			<English>Bring an ammotruck from safe zone</English>
+			
+		</Key>
+							<Key ID="STR_MinorM68end1">
+			<Original>Mission failed! The truck was destroyed! -5000 humanity!</Original>
+			<Russian>Задание провалено! Грузовик уничтожен! -5000 к человечности!</Russian>
+			<English>Mission failed! The truck was destroyed! -5000 humanity!</English>
+			
+		</Key>
+									<Key ID="STR_MinorM68end2">
+			<Original>Mission completed! +5000 humanity!</Original>
+			<Russian>Задание выполнено! +5000 к человечности!</Russian>
+			<English>Mission completed! +5000 humanity!</English>
+			
+		</Key>
+			<Key ID="STR_MinorM69">
+			<Original>Escort a medic to battlefield from safe zone</Original>
+			<Russian>Доставте медика на поле боя с безопасной зоны</Russian>
+			<English>Escort a medic to battlefield from safe zone</English>
+			
+		</Key>
+					<Key ID="STR_MinorM69short">
+			<Original>Escort a medic to battlefield</Original>
+			<Russian>Доставте медика на поле боя</Russian>
+			<English>Escort a medic to battlefield</English>
+			
+		</Key>
+							<Key ID="STR_MinorM69end1">
+			<Original>Mission failed! Medic was killed!</Original>
+			<Russian>Задание провалено! Медик убит!</Russian>
+			<English>Mission failed! Medic was killed!</English>
+			
+		</Key>
+									<Key ID="STR_MinorM69end2">
+			<Original>Mission comleted! Medic successfuly escorted!</Original>
+			<Russian>Задание выполнено! Медик успешно доставлен!</Russian>
+			<English>Mission comleted! Medic successfuly escorted!</English>
+			
+		</Key>
+			<Key ID="STR_MinorM70">
+			<Original>Record a conversation</Original>
+			<Russian>Запишите разговор</Russian>
+			<English>Record a conversation</English>
+			
+		</Key>
+					<Key ID="STR_MinorM70short">
+			<Original>Record a conversation</Original>
+			<Russian>Запишите разговор</Russian>
+			<English>Record a conversation</English>
+			
+		</Key>
+							<Key ID="STR_MinorM70end1">
+			<Original>Mission failed! You have been seen!</Original>
+			<Russian>Задание провалено! Вас обнаружили!</Russian>
+			<English>Mission failed! You have been seen!</English>
+			
+		</Key>
+									<Key ID="STR_MinorM70end2">
+			<Original>Mission completed!</Original>
+			<Russian>Задание выполнено!</Russian>
+			<English>Mission completed!</English>
+			
+		</Key>
+			<Key ID="STR_MinorM71">
+			<Original>Secure a Control Tower</Original>
+			<Russian>Удержать Диспетчерскую Вышку</Russian>
+			<English>Secure a Control Tower</English>
+			
+		</Key>
+					<Key ID="STR_MinorM71short">
+			<Original>Secure a Control Tower</Original>
+			<Russian>Удержать Диспетчерскую Вышку</Russian>
+			<English>Secure a Control Tower</English>
+			
+		</Key>
+			<Key ID="STR_MinorM72">
+			<Original>Kill the enemy leader</Original>
+			<Russian>Убить лидера повстанцев</Russian>
+			<English>Kill the enemy leader</English>
+			
+		</Key>
+					<Key ID="STR_MinorM72short">
+			<Original>Kill the enemy leader</Original>
+			<Russian>Убить лидера повстанцев</Russian>
+			<English>Kill the enemy leader</English>
+			
+		</Key>
+			<Key ID="STR_MinorM72end1">
+			<Original>The leader was killed! + 10000 humanity!</Original>
+			<Russian>Лидер убит! +10000 к человечности!</Russian>
+			<English>The leader was killed! + 10000 humanity!</English>
+			
+		</Key>
+	<Key ID="STR_MajorM1">
+			<Original>Bandits have discovered a weapons cache! Check your map for the location!</Original>
+			<English>Bandits have discovered a weapons cache! Check your map for the location!</English>
+			<Russian>Бандиты нашли кэш с оружием! Свертесь с картой!</Russian>
+		</Key>
+	<Key ID="STR_MajorM1short">
+			<Original>Weapons cache</Original>
+			<English>Weapons cache</English>
+			<Russian>Кэш с оружием</Russian>
+		</Key>
+	<Key ID="STR_MajorM1end">
+			<Original>The weapons cache is under survivor control!</Original>
+			<English>The weapons cache is under survivor control!</English>
+			<Russian>Кэш с оружием под контролем выживших!</Russian>
+		</Key>
+	<Key ID="STR_MajorM2">
+			<Original>A C-130 carrying medical supplies has crashed and bandits are securing the site! Check your map for the location!</Original>
+			<English>A C-130 carrying medical supplies has crashed and bandits are securing the site! Check your map for the location!</English>
+			<Russian>C-130 с медикаментами на борту потерпел крушение и бандиты зачищают местность!</Russian>
+		</Key>
+	<Key ID="STR_MajorM2short">
+			<Original>A C-130 with medical supplies</Original>
+			<English>A C-130 with medical supplies</English>
+			<Russian>C-130 с медикаментами!</Russian>
+		</Key>
+	<Key ID="STR_MajorM2end">
+			<Original>The crash site has been secured by survivors!</Original>
+			<English>The crash site has been secured by survivors!</English>
+			<Russian>Место крушения C-130 зачищено выжившими!</Russian>
+		</Key>
+	<Key ID="STR_MajorM3">
+			<Original>Bandits have set up a medical re-supply camp! Check your map for the location!</Original>
+			<English>Bandits have set up a medical re-supply camp! Check your map for the location!</English>
+			<Russian>Бандиты организовали полевой госпиталь! Место обозначено на карте!</Russian>
+		</Key>
+	<Key ID="STR_MajorM3short">
+			<Original>Medical re-supply camp</Original>
+			<English>Medical re-supply camp</English>
+			<Russian>Полевой госпиталь бандитов!</Russian>
+		</Key>
+	<Key ID="STR_MajorM3end">
+			<Original>Survivors have taken control of the camp and medical supplies.</Original>
+			<English>Survivors have taken control of the camp and medical supplies.</English>
+			<Russian>Полевой госпиталь под контролем выживших.</Russian>
+		</Key>
+	<Key ID="STR_MajorM4">
+			<Original>A bandit supply helicopter has crash landed! Check your map for the location!</Original>
+			<English>A bandit supply helicopter has crash landed! Check your map for the location!</English>
+			<Russian>Вертолет поддержки совершил аварийную посадку! Место обозначено на карте!</Russian>
+		</Key>
+	<Key ID="STR_MajorM4short">
+			<Original>Bandit supply helicopter</Original>
+			<English>Bandit supply helicopter</English>
+			<Russian>Место аварийной посадки вертолета поддержки!</Russian>
+		</Key>
+	<Key ID="STR_MajorM4end">
+			<Original>The helicopter has been taken by survivors!</Original>
+			<English>The helicopter has been taken by survivors!</English>
+			<Russian>Вертолет захвачен выжившими!</Russian>
+		</Key>
+			<Key ID="STR_MajorM5">
+			<Original>Bandits have destroyed a Ural carrying medical supplies and are securing the cargo! Check your map for the location!</Original>
+			<English>Bandits have destroyed a Ural carrying medical supplies and are securing the cargo! Check your map for the location!</English>
+			<Russian>Бандиты уничтожили урал перевозивший медикаменты! Место указано на карте!</Russian>
+		</Key>
+					<Key ID="STR_MajorM5short">
+			<Original>Ural whith medical supplies</Original>
+			<English>Ural whith medical supplies</English>
+			<Russian>Урал с медикаментами</Russian>
+		</Key>
+							<Key ID="STR_MajorM5end">
+			<Original>The medical supplies have been secured by survivors!</Original>
+			<English>The medical supplies have been secured by survivors!</English>
+			<Russian>Медикаменты под контролем выживших!</Russian>
+		</Key>
+									<Key ID="STR_MajorM6">
+			<Original>A medical supply crate has been secured by bandits! Check your map for the location!</Original>
+			<English>A medical supply crate has been secured by bandits! Check your map for the location!</English>
+			<Russian>Ящик с медикаментами под контролем бандитов! Место обозначено на карте!</Russian>
+		</Key>
+											<Key ID="STR_MajorM6short">
+			<Original>A medical supply crate</Original>
+			<English>A medical supply crate</English>
+			<Russian>Ящик с медикаментами</Russian>
+		</Key>
+													<Key ID="STR_MajorM6end">
+			<Original>The medical crate is under survivor control!</Original>
+			<English>The medical crate is under survivor control!</English>
+			<Russian>Ящик с медикаментами теперь под контролем выживших</Russian>
+		</Key>
+			<Key ID="STR_MajorM7">
+			<Original>A gear cache has been airdropped! Secure it for yourself!</Original>
+			<English>A gear cache has been airdropped! Secure it for yourself!</English>
+			<Russian>Ящик с оружием был сброшен в координатах обозначеных на карте! Присвойте его себе!</Russian>
+		</Key>
+					<Key ID="STR_MajorM7short">
+			<Original>A gear cache</Original>
+			<English>A gear cache</English>
+			<Russian>Ящик с оружием</Russian>
+		</Key>
+							<Key ID="STR_MajorM7end">
+			<Original>The gear cache has been found, nice work, enjoy the spoils.</Original>
+			<English>The gear cache has been found, nice work, enjoy the spoils.</English>
+			<Russian>Ящик с оружием был найден выжившими, хорошая работа.</Russian>
+		</Key>
+									<Key ID="STR_MajorM8">
+			<Original>A C-130 has crash landed!Survivors secure the cargo!</Original>
+			<English>A C-130 has crash landed!Survivors secure the cargo!</English>
+			<Russian>С-130 потерпел крушение! Выжившие соберите лут!</Russian>
+		</Key>
+											<Key ID="STR_MajorM8short">
+			<Original>A C-130 has crash landed</Original>
+			<English>A C-130 has crash landed</English>
+			<Russian>С-130 потерпел крушение</Russian>
+		</Key>
+													<Key ID="STR_MajorM8end">
+			<Original>Survivors secured the crash site! We'll done.</Original>
+			<English>Survivors secured the crash site! We'll done.</English>
+			<Russian>Выжившие зачистили место крушения! Отличная работа.</Russian>
+		</Key>
+			<Key ID="STR_MajorM9">
+			<Original>A firebase is being constructed! Stop the bandits and secure the construction materials for yourself!</Original>
+			<English>A firebase is being constructed! Stop the bandits and secure the construction materials for yourself!</English>
+			<Russian>Началось строение базы огневой поддержки противника! Остановите бандитов и заберите стройматериалы!</Russian>
+		</Key>
+					<Key ID="STR_MajorM9short">
+			<Original>A firebase is being constructed</Original>
+			<English>A firebase is being constructed</English>
+			<Russian>Cтройка базы огневой поддержки противника</Russian>
+		</Key>
+							<Key ID="STR_MajorM9end">
+			<Original>Survivors have secured the construction materials.</Original>
+			<English>Survivors have secured the construction materials.</English>
+			<Russian>Выжившие забрали стройматериалы.</Russian>
+		</Key>
+									<Key ID="STR_MajorM10">
+			<Original>A helicopter has crash landed! Secure it's firepower for yourself!</Original>
+			<English>A helicopter has crash landed! Secure it's firepower for yourself!</English>
+			<Russian>Вертолет совершил аварийную посадку! Присвойте его себе!</Russian>
+		</Key>
+											<Key ID="STR_MajorM10short">
+			<Original>A helicopter has crash landed</Original>
+			<English>A helicopter has crash landed</English>
+			<Russian>Вертолет совершил аварийную посадку</Russian>
+		</Key>
+													<Key ID="STR_MajorM10end">
+			<Original>The Helicopters were under survivor control!</Original>
+			<English>The Helicopters were under survivor control!</English>
+			<Russian>Вертолет под контролем выживших!</Russian>
+		</Key>
+			<Key ID="STR_MajorM11">
+			<Original>A humvee has broken down! Secure it's firepower for yourself!</Original>
+			<English>A humvee has broken down! Secure it's firepower for yourself!</English>
+			<Russian>Хаммер сломался! Присвойте его себе!</Russian>
+		</Key>
+				<Key ID="STR_MajorM11short">
+			<Original>A humvee has broken down</Original>
+			<English>A humvee has broken down</English>
+			<Russian>Сломаный хаммер</Russian>
+		</Key>
+						<Key ID="STR_MajorM11end">
+			<Original>The humvee is under survivor control!</Original>
+			<English>The humvee is under survivor control!</English>
+			<Russian>Хаммер под контролем выживших!</Russian>
+		</Key>
+								<Key ID="STR_MajorM12">
+			<Original>An APC has broken down! Secure it's firepower for yourself!</Original>
+			<English>An APC has broken down! Secure it's firepower for yourself!</English>
+			<Russian>Сломался БТР! Присвойте его себе!</Russian>
+		</Key>
+										<Key ID="STR_MajorM12short">
+			<Original>An APC has broken down</Original>
+			<English>An APC has broken down</English>
+			<Russian>Сломаный БТР</Russian>
+		</Key>
+												<Key ID="STR_MajorM12end">
+			<Original>APC secured by survivors!</Original>
+			<English>APC secured by survivors!</English>
+			<Russian>БТР под контролем выживших</Russian>
+		</Key>
+			<Key ID="STR_MajorM13">
+			<Original>Intel suggests bandits may be trying to build a base nearby, locate and terminate before they get fortified.</Original>
+			<English>Intel suggests bandits may be trying to build a base nearby, locate and terminate before they get fortified.</English>
+			<Russian>Развед данные указываю на возможное строение бандитами базы неподалеку, найдите и обезвредьте бандитов.</Russian>
+		</Key>
+					<Key ID="STR_MajorM13short">
+			<Original>Bandits base</Original>
+			<English>Bandits base</English>
+			<Russian>База бандитов</Russian>
+		</Key>
+							<Key ID="STR_MajorM13end">
+			<Original>Survivors have eliminated the bandit construction team.</Original>
+			<English>Survivors have eliminated the bandit construction team.</English>
+			<Russian>Выжившие убили всех бандитов.</Russian>
+		</Key>
+			<Key ID="STR_MajorM14">
+			<Original>Destroy a SCUD laucher!</Original>
+			<English>Destroy a SCUD laucher!</English>
+			<Russian>Уничтожте установку СКАД!</Russian>
+		</Key>
+					<Key ID="STR_MajorM14short">
+			<Original>Destroy a SCUD laucher</Original>
+			<English>Destroy a SCUD laucher</English>
+			<Russian>Уничтожить установку СКАД</Russian>
+		</Key>
+							<Key ID="STR_MajorM14end">
+			<Original>SCUD laucher was destroyed!</Original>
+			<English>SCUD laucher was destroyed!</English>
+			<Russian>Установка СКАД уничтожена!</Russian>
+		</Key>
+			<Key ID="STR_MajorM15">
+			<Original>A gold trafficker is running his smuggling operation through this location</Original>
+			<English>A gold trafficker is running his smuggling operation through this location</English>
+			<Russian>Поставщик золота собирается заключить сделку с бандитами, убейте его</Russian>
+		</Key>
+					<Key ID="STR_MajorM15short">
+			<Original>Kill a gold trafficker</Original>
+			<English>Kill a gold trafficker</English>
+			<Russian>Убить поставщика золота</Russian>
+		</Key>
+							<Key ID="STR_MajorM15end">
+			<Original>Gold trafficker has been eliminated!</Original>
+			<English>Gold trafficker has been eliminated!</English>
+			<Russian>Поставщик золота убит!</Russian>
+		</Key>
+			<Key ID="STR_MajorM16">
+			<Original>The enemy are employing a famous Russian scientist to work on a secret project.</Original>
+			<English>The enemy are employing a famous Russian scientist to work on a secret project.</English>
+			<Russian>Противник нанял известного Российского ученого для работы над новым секретным проектом.</Russian>
+		</Key>
+					<Key ID="STR_MajorM16short">
+			<Original>Kill nuclear scientist</Original>
+			<English>Kill nuclear scientist</English>
+			<Russian>Убить ученого ядерщика</Russian>
+		</Key>
+							<Key ID="STR_MajorM16end">
+			<Original>Nuclear scientist was killed!</Original>
+			<English>Nuclear scientist was killed!</English>
+			<Russian>Ученый ядерщик убит!</Russian>
+		</Key>
+			<Key ID="STR_MajorM17">
+			<Original>Intel reports an enemy special forces camp at the marked position.</Original>
+			<English>Intel reports an enemy special forces camp at the marked position.</English>
+			<Russian>Разведка докладывает о возможном лагере спецвойск противника в отмеченых координатах.</Russian>
+		</Key>
+					<Key ID="STR_MajorM17short">
+			<Original>Destroy barrack</Original>
+			<English>Destroy barrack</English>
+			<Russian>Уничтожить баррак</Russian>
+		</Key>
+							<Key ID="STR_MajorM17end">
+			<Original>Barrack was destroyed!</Original>
+			<English>Barrack was destroyed!</English>
+			<Russian>Баррак уничтожен!</Russian>
+		</Key>
+			<Key ID="STR_MajorM18">
+			<Original>Kill an insurgent commander!</Original>
+			<English>Kill an insurgent commander!</English>
+			<Russian>Убейте коммандира повстанцев!</Russian>
+		</Key>
+					<Key ID="STR_MajorM18short">
+			<Original>Kill an insurgent commander</Original>
+			<English>Kill an insurgent commander</English>
+			<Russian>Убить коммандира повстанцев</Russian>
+		</Key>
+							<Key ID="STR_MajorM18end">
+			<Original>Insurgent commander was eliminated!</Original>
+			<English>Insurgent commander was eliminated!</English>
+			<Russian>Коммандир повстанцев убит!</Russian>
+		</Key>
+			<Key ID="STR_MajorM19">
+			<Original>Eliminate a commando group!</Original>
+			<English>Eliminate a commando group!</English>
+			<Russian>Уничтожте группу коммандо!</Russian>
+		</Key>
+					<Key ID="STR_MajorM19short">
+			<Original>Eliminate a commando group</Original>
+			<English>Eliminate a commando group</English>
+			<Russian>Уничтожить группу коммандо</Russian>
+		</Key>
+							<Key ID="STR_MajorM19end">
+			<Original>Commando group was eliminated!</Original>
+			<English>Commando group was eliminated!</English>
+			<Russian>Группа коммандо уничтожена!</Russian>
+		</Key>
+			<Key ID="STR_Countdes1">
+			<Original>Still %1 enemies to kill</Original>
+			<English>Still %1 enemies to kill</English>
+			<Russian>Осталось убить %1 противника</Russian>
+		</Key>
+					<Key ID="STR_followme">
+			<Original>Follow me</Original>
+			<English>Follow me</English>
+			<Russian>Следуй за мной</Russian>
+		</Key>
+							<Key ID="STR_sabotage">
+			<Original>Sabotage</Original>
+			<English>Sabotage</English>
+			<Russian>Саботировать</Russian>
+		</Key>
+			<Key ID="STR_p1000hum">
+			<Original>+1000 humanity</Original>
+			<English>+1000 humanity</English>
+			<Russian>+1000 к человечности</Russian>
+		</Key>
+	</Package>
+</Project>

@@ -1,0 +1,10 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: Produced from mikero's Dos Tools Dll version 3.82
+//http://dev-heaven.net/projects/list_files/mikero-pbodll
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+//Class GL4_Config_FX : GL4_Sparks\Data\fire.rvmat{
+renderFlags[] = {"AddBlend"};
+//};
