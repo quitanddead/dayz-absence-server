@@ -69,10 +69,8 @@ _object_inventory = {
 			getWeaponCargo _object,
 			getMagazineCargo _object,
 			getBackpackCargo _object,
-			_object magazinesturret [0],
-			_object magazinesturret [-1],
-			_object magazinesturret [1],
-			_object magazinesturret [2]
+			_object magazinesTurret [0],
+			_object magazinesTurret [-1]
 		];
 		_previous = str(_object getVariable["lastInventory",[]]);
 		if (str(_inventory) != _previous) then {

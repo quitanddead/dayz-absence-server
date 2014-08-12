@@ -269,47 +269,15 @@ if (isServer and isNil "sm_done") then {
 						};
 						_countr = _countr + 1;
 					} forEach _objWpnTypes;
-					//Add Vehicle ammo gunner
-					_objWpnTypes = _intentory select 3;
+					//Add Vehicle Ammo
+					_objWpnTypes = (_intentory select 3) select 0;
 					_objWpnQty = (_intentory select 3) select 1;
 					_countr = 0;
 					{
 						_isOK = 	isClass(configFile >> "CfgMagazines" >> _x);
 						if (_isOK) then {
-							_object addMagazineturret [_x,[0]];
-						};
-						_countr = _countr + 1;
-					} forEach _objWpnTypes;
-					//Add Vehicle ammo pilot
-					_objWpnTypes = _intentory select 4;
-					_objWpnQty = (_intentory select 4) select 1;
-					_countr = 0;
-					{
-						_isOK = 	isClass(configFile >> "CfgMagazines" >> _x);
-						if (_isOK) then {
-							_object addMagazineturret [_x,[-1]];
-						};
-						_countr = _countr + 1;
-					} forEach _objWpnTypes;
-					//Add Vehicle ammo second gunner
-					_objWpnTypes = _intentory select 5;
-					_objWpnQty = (_intentory select 5) select 1;
-					_countr = 0;
-					{
-						_isOK = 	isClass(configFile >> "CfgMagazines" >> _x);
-						if (_isOK) then {
-							_object addMagazineturret [_x,[1]];
-						};
-						_countr = _countr + 1;
-					} forEach _objWpnTypes;
-					//Add Vehicle ammo third gunner
-					_objWpnTypes = _intentory select 6;
-					_objWpnQty = (_intentory select 6) select 1;
-					_countr = 0;
-					{
-						_isOK = 	isClass(configFile >> "CfgMagazines" >> _x);
-						if (_isOK) then {
-							_object addMagazineturret [_x,[2]];
+							_object addMagazineTurret [_x,[0]];
+							_object addMagazineTurret [_x,[-1]];
 						};
 						_countr = _countr + 1;
 					} forEach _objWpnTypes;
