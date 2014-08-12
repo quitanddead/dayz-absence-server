@@ -12,7 +12,7 @@
 
 		In this case, you may need to edit both global_classnames.sqf and \epoch\dayz_epoch.sqf to make your wanted classname changes.
 
-	Last upated: 9:16 PM 2/19/2014
+	Last upated: 3:27 PM 8/12/2014
 */
 
 
