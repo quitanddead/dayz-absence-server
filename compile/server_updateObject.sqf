@@ -1,4 +1,6 @@
 /*
+added ability to store vehicle ammo to database @long range
+
 [_object,_type] spawn server_updateObject;
 */
 private ["_object","_type","_objectID","_uid","_lastUpdate","_needUpdate","_object_position","_object_inventory","_object_damage","_isNotOk","_parachuteWest","_firstTime","_object_killed","_object_repair","_isbuildable"];
